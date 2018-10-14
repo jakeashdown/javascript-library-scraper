@@ -1,3 +1,7 @@
+import java.util.concurrent.CompletableFuture
+import java.util.concurrent.Executors
+import kotlin.math.min
+
 val THREAD_COUNT = 2
 
 fun main(args: Array<String>) {
@@ -31,15 +35,16 @@ fun main(args: Array<String>) {
         }
     }
 
-    // Create a thread for each group
-    val threads = mutableListOf<>()
+    // TODO: implement this with concurrency for each thread group, using Java completable futures or kotlin concurrency
+    val libraryFinder = LibraryFinder()
+    val libraries = mutableListOf<String>()
     for (linkGroup in linkGroups.values) {
-        val libraries = 
+        libraries.addAll(libraryFinder.findJavascriptLibrariesInPages(linkGroup))
+    }
 
-
-        val thread =  Thread {
-            val libraryFinder = LibraryFinder()
-            return libraryFinder.findJavascriptLibrariesInPages(linkGroup)
-        }
+    // TODO: find way to sort by most common results
+    println("Outputting top Javascript libraries...")
+    for (i in 1..min(5, libraries.size)) {
+        println(libraries.get(i - 1))
     }
 }
