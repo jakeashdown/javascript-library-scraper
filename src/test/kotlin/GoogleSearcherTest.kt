@@ -4,9 +4,9 @@ class GoogleSearcherTest {
     val searcher: GoogleSearcher = GoogleSearcher()
 
     @Test
-    fun testDocumentTitle() {
+    fun testPageLoads() {
         val document = searcher.getGoogleSearchResults("wikipedia")
-        assert(document.title().contains("Google"))
+        assert(document.title().contains("Google Search"))
     }
 
     @Test
@@ -15,7 +15,14 @@ class GoogleSearcherTest {
         val links = document.select("a")
         var containsWikipediaLink = false
         for (element in links) {
-            if (element.attr("href").equals("www.wikipedia.org")) containsWikipediaLink = true
+            if (element.attr("href").contains("www.wikipedia.org")) containsWikipediaLink = true
         }
+        assert(containsWikipediaLink)
+    }
+
+    @Test
+    fun testSpaceEncoding() {
+        val document = searcher.getGoogleSearchResults("face book")
+        assert(document.title().contains("face book - Google Search"))
     }
 }

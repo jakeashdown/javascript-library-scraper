@@ -1,6 +1,4 @@
-import java.util.concurrent.CompletableFuture
-import java.util.concurrent.Executors
-import kotlin.math.min
+import java.lang.Integer.min
 
 val THREAD_COUNT = 2
 
@@ -35,14 +33,35 @@ fun main(args: Array<String>) {
         }
     }
 
-    // TODO: implement this with concurrency for each thread group, using Java completable futures or kotlin concurrency
+    /*
+    * TODO:
+    * Process each group of links on a seperate thread.
+    * One way to do this is to use Java's CompletableFuture API, creating one future
+    * for each group of links and blocking execution of this thread until all futures are complete.
+    *
+    * Alternatively, find out how Kotlin does multithreading.
+    * */
     val libraryFinder = LibraryFinder()
     val libraries = mutableListOf<String>()
     for (linkGroup in linkGroups.values) {
         libraries.addAll(libraryFinder.findJavascriptLibrariesInPages(linkGroup))
     }
 
-    // TODO: find way to sort by most common results
+    /*
+    * TODO:
+    * Remove duplicate libraries from results.
+    * One way to do this would be to use a 'fuzzy' string-matching algorithm such as Jaro-Winkler,
+    * so that we consider two libraries matching if the string similarity is over a certain threshold.
+    *
+    * For example, the following
+    * 0 = "//jquery.com/jquery-wp-content/themes/jquery/js/modernizr.custom.2.8.3.min.js"
+    * 1 = "https://code.jquery.com/jquery-1.11.3.js"
+    * 2 = "//jquery.com/jquery-wp-content/themes/jquery/js/plugins.js"
+    * 3 = "//jquery.com/jquery-wp-content/themes/jquery/js/main.js"
+    * all link to the same jquery library
+    *
+    * Another way would be to find the library online (e.g. in a CDN) and check the author
+    * */
     println("Outputting top Javascript libraries...")
     for (i in 1..min(5, libraries.size)) {
         println(libraries.get(i - 1))
