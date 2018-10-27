@@ -20,9 +20,4 @@ class GoogleSearcherTest {
         assert(containsWikipediaLink)
     }
 
-    @Test
-    fun testSpaceEncoding() {
-        val document = searcher.getGoogleSearchResults("face book")
-        assert(document.title().contains("face book - Google Search"))
-    }
 }
