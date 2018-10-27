@@ -3,6 +3,7 @@ import java.util.stream.Collectors
 
 val THREAD_COUNT = 2
 
+// TODO: add .idea and .gradle to gitignore
 fun main(args: Array<String>) {
     println("Starting javascript library scraper...")
 
