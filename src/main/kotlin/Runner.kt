@@ -1,14 +1,11 @@
-import java.lang.Integer.min
 import java.util.concurrent.CompletableFuture
 import java.util.stream.Collectors
 
 val THREAD_COUNT = 2
 
-// TODO: test running from compiled JAR
 fun main(args: Array<String>) {
     println("Starting javascript library scraper...")
 
-    // TODO: find way to pass in command line args containing spaces
     if (args.size != 1) {
         println("Single program argument required - search term")
         System.exit(1)
@@ -17,7 +14,7 @@ fun main(args: Array<String>) {
     val searchTerm: String = args[0]
     val googleSearcher = GoogleSearcher()
 
-    println("Getting google results for search term $searchTerm...")
+    println("Getting google results for search term '$searchTerm...'")
     val searchResults = googleSearcher.getGoogleSearchResults(searchTerm)
 
     println("Getting links from search results...")
@@ -56,6 +53,14 @@ fun main(args: Array<String>) {
     val libraries = futures.stream().flatMap { it.get().stream() } .collect(Collectors.toList())
     println("${libraries.count()} libraries have been found")
 
-    // TODO: deduplicate libraries and output
-    val jw =
+    println("Removing duplicate libraries...")
+    val deduplicator = LibraryDeduplicator()
+    val uniqueLibraries = deduplicator.deduplicateLibraries(libraries)
+
+    println("Displaying the 5 most popular libraies...")
+    val sorter = LibrarySorter()
+    val sortedLibraries = sorter.sortLibrariesByPopularity(uniqueLibraries)
+    for (i in 0..4) {
+        println("[$i] ${sortedLibraries.get(i)}")
+    }
 }

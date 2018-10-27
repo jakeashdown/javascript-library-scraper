@@ -12,10 +12,10 @@ class GoogleSearcherTest {
     @Test
     fun testContainsLink() {
         val document = searcher.getGoogleSearchResults("wikipedia")
-        val links = document.select("a")
+        val links = document.select("cite")
         var containsWikipediaLink = false
         for (element in links) {
-            if (element.attr("href").contains("www.wikipedia.org")) containsWikipediaLink = true
+            if (element.text().contains("www.wikipedia.org")) containsWikipediaLink = true
         }
         assert(containsWikipediaLink)
     }

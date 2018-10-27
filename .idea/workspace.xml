@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c585f0d-7eb1-4f86-a644-8c5661ec07cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/LibraryDeduplicator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/LibraryDeduplicator.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Runner.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Runner.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/LibraryDeduplicatorTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/LibraryDeduplicatorTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -73,70 +67,79 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="8" />
-          <entry key="gradle" value="67" />
-          <entry key="kt" value="1904" />
+          <entry key="dummy" value="20" />
+          <entry key="gradle" value="70" />
+          <entry key="kt" value="6333" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="67" />
-          <entry key="Kotlin" value="1904" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Groovy" value="70" />
+          <entry key="Kotlin" value="6333" />
+          <entry key="PLAIN_TEXT" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gradle" value="1" />
-          <entry key="kt" value="6" />
+          <entry key="class" value="2" />
+          <entry key="gradle" value="2" />
+          <entry key="java" value="9" />
+          <entry key="kt" value="36" />
           <entry key="md" value="1" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="1" />
-          <entry key="Kotlin" value="6" />
+          <entry key="CLASS" value="2" />
+          <entry key="Groovy" value="2" />
+          <entry key="JAVA" value="9" />
+          <entry key="Kotlin" value="36" />
           <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/Runner.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+            <state relative-caret-position="240">
+              <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
               <folding>
-                <element signature="e#0#109#0" expanded="true" />
+                <element signature="e#0#80#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/GoogleSearcher.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/LibraryFinder.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="210">
+              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
-                <element signature="e#0#54#0" expanded="true" />
+                <element signature="e#0#205#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/LinkExtractor.kt">
+        <entry file="file://$PROJECT_DIR$/src/test/kotlin/LibraryFinderTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="135">
+              <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -144,35 +147,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/LibraryDeduplicator.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/kotlin/LinkExtractorTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/kotlin/GoogleSearcherTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+            <state relative-caret-position="28">
+              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -180,17 +156,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/LibraryDeduplicatorTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+            <state relative-caret-position="-169">
+              <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -217,6 +184,11 @@
       <find>list</find>
       <find>$</find>
       <find>&quot;</find>
+      <find>hamcrest</find>
+      <find>match</find>
+      <find>DEFAULT_THRESHOLD</find>
+      <find>threshold</find>
+      <find>www.twitter.com</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -417,9 +389,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6162609905000" />
+        <entry key="$PROJECT_DIR$" value="6162611061000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3013945891" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1637923922" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2755184722" />
       </map>
@@ -583,18 +555,20 @@
         <option value="$PROJECT_DIR$/src/test/kotlin/GoogleSearcherTest.java" />
         <option value="$PROJECT_DIR$/src/test/kotlin/LinkExtractorTest.java" />
         <option value="$PROJECT_DIR$/src/test/kotlin/LibraryFinderTest.java" />
-        <option value="$PROJECT_DIR$/src/test/kotlin/LibraryFinderTest.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/LibraryFinder.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/LinkExtractor.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/GoogleSearcher.kt" />
-        <option value="$PROJECT_DIR$/src/test/kotlin/GoogleSearcherTest.kt" />
-        <option value="$PROJECT_DIR$/src/test/kotlin/LinkExtractorTest.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/LinkDeduplicatorTest.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/LinkDeduplicator.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/LibrarySorter.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/GoogleSearcherTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/GoogleSearcher.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/LibrarySorterTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/LinkExtractor.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/LinkExtractorTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/LibraryFinder.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/LibraryFinderTest.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/LibraryDeduplicatorTest.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/LibraryDeduplicator.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/Runner.kt" />
-        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -605,10 +579,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="77" />
-    <option name="y" value="47" />
+    <option name="x" value="-253" />
+    <option name="y" value="27" />
     <option name="width" value="1221" />
-    <option name="height" value="669" />
+    <option name="height" value="674" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -616,7 +590,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -665,20 +638,43 @@
               <item name="gradle" type="462c0819:PsiDirectoryNode" />
               <item name="wrapper" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="javascript-library-scraper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="javascript-library-scraper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="javascript-library-scraper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javascript-library-scraper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="jsoup.xml&#9;FILE&#9;file:///home/jake/IdeaProjects/javascript-library-scraper/.idea/libraries/Gradle__org_jsoup_jsoup_1_10_3.xml&#10;jsoup&#9;PSI&#9;JAVA://org.jsoup.Jsoup&#10;build.gra&#9;FILE&#9;file:///home/jake/IdeaProjects/javascript-library-scraper/build.gradle&#10;read&#9;FILE&#9;file:///home/jake/IdeaProjects/javascript-library-scraper/README.md&#10;readme&#9;FILE&#9;file:///home/jake/git/javascript-library-scraper/README.md&#10;runner&#9;FILE&#9;file:///home/jake/git/javascript-library-scraper/src/main/kotlin/Runner.kt&#10;build&#9;FILE&#9;file:///home/jake/git/javascript-library-scraper/build.gradle" />
+    <property name="SearchEverywhereHistoryKey" value="runner&#9;FILE&#9;file:///home/jake/IdeaProjects/javascript-library-scraper/src/main/kotlin/Runner.kt&#10;runer&#9;PSI&#9;JAVA://javax.management.RuntimeErrorException&#10;linkex&#9;FILE&#9;file:///home/jake/IdeaProjects/javascript-library-scraper/src/test/kotlin/LinkExtractorTest.kt&#10;line&#9;FILE&#9;file:///home/jake/IdeaProjects/javascript-library-scraper/src/test/kotlin/LinkExtractorTest.kt&#10;GooSea&#9;FILE&#9;file:///home/jake/IdeaProjects/javascript-library-scraper/src/test/kotlin/GoogleSearcherTest.kt&#10;libDe&#9;FILE&#9;file:///home/jake/IdeaProjects/javascript-library-scraper/src/test/kotlin/LibraryDeduplicatorTest.kt&#10;java-string-si&#9;FILE&#9;jar:///home/jake/.gradle/caches/modules-2/files-2.1/info.debatty/java-string-similarity/1.0.0/d1102a814bc49803306c0cbad5f6c206fd24b9d/java-string-similarity-1.0.0.jar!/META-INF/maven/info.debatty/java-string-similarity&#10;java-string-similarity&#9;FILE&#9;jar:///home/jake/.gradle/caches/modules-2/files-2.1/info.debatty/java-string-similarity/1.0.0/c400a9ccedfce4c11b52e3a00b38cb19512aeca/java-string-similarity-1.0.0-sources.jar!/META-INF/maven/info.debatty/java-string-similarity&#10;java-string&#9;FILE&#9;jar:///home/jake/.gradle/caches/modules-2/files-2.1/info.debatty/java-string-similarity/1.0.0/c400a9ccedfce4c11b52e3a00b38cb19512aeca/java-string-similarity-1.0.0-sources.jar!/META-INF/maven/info.debatty/java-string-similarity&#10;android&#9;ACTION&#9;Android.CreateResourcesActionGroup&#10;build&#9;FILE&#9;file:///home/jake/IdeaProjects/javascript-library-scraper/build.gradle&#10;jsoup.xml&#9;FILE&#9;file:///home/jake/IdeaProjects/javascript-library-scraper/.idea/libraries/Gradle__org_jsoup_jsoup_1_10_3.xml&#10;jsoup&#9;PSI&#9;JAVA://org.jsoup.Jsoup&#10;build.gra&#9;FILE&#9;file:///home/jake/IdeaProjects/javascript-library-scraper/build.gradle&#10;read&#9;FILE&#9;file:///home/jake/IdeaProjects/javascript-library-scraper/README.md&#10;readme&#9;FILE&#9;file:///home/jake/git/javascript-library-scraper/README.md" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540658786121" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540674994785" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -688,7 +684,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -711,47 +707,34 @@
     </option>
   </component>
   <component name="RunManager" selected="Kotlin.RunnerKt">
-    <configuration name="GoogleSearcherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LibraryDeduplicatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javascript-library-scraper_test" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GoogleSearcherTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="MAIN_CLASS_NAME" value="LibraryDeduplicatorTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleSearcherTest.testContainsLink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LibraryFinderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javascript-library-scraper_test" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GoogleSearcherTest" />
-      <option name="METHOD_NAME" value="testContainsLink" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="MAIN_CLASS_NAME" value="LibraryFinderTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibrarySorterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javascript-library-scraper_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LibrarySorterTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="LinkExtractorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javascript-library-scraper_test" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LinkExtractorTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkExtractorTest.testSingleLink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javascript-library-scraper_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LinkExtractorTest" />
-      <option name="METHOD_NAME" value="testSingleLink" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -760,7 +743,7 @@
       <module name="javascript-library-scraper_main" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="somethingawful" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;air bnb&quot;" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -785,19 +768,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.GoogleSearcherTest" />
-      <item itemvalue="JUnit.LinkExtractorTest" />
-      <item itemvalue="JUnit.GoogleSearcherTest.testContainsLink" />
+      <item itemvalue="JUnit.LibraryDeduplicatorTest" />
       <item itemvalue="Kotlin.RunnerKt" />
-      <item itemvalue="JUnit.LinkExtractorTest.testSingleLink" />
+      <item itemvalue="JUnit.LibraryFinderTest" />
+      <item itemvalue="JUnit.LibrarySorterTest" />
+      <item itemvalue="JUnit.LinkExtractorTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.RunnerKt" />
+        <item itemvalue="JUnit.LibraryDeduplicatorTest" />
+        <item itemvalue="JUnit.LibraryFinderTest" />
         <item itemvalue="JUnit.LinkExtractorTest" />
-        <item itemvalue="JUnit.LinkExtractorTest.testSingleLink" />
-        <item itemvalue="JUnit.GoogleSearcherTest" />
-        <item itemvalue="JUnit.GoogleSearcherTest.testContainsLink" />
+        <item itemvalue="JUnit.LibrarySorterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -822,35 +805,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LinkExtractorTest - 2018.10.14 at 21h 46m 16s.xml">
+    <history-entry file="LibraryFinderTest - 2018.10.27 at 21h 40m 03s.xml">
+      <configuration name="LibraryFinderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibrarySorterTest - 2018.10.27 at 21h 43m 55s.xml">
+      <configuration name="LibrarySorterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkExtractorTest - 2018.10.27 at 21h 46m 11s.xml">
       <configuration name="LinkExtractorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkExtractorTest - 2018.10.14 at 21h 46m 29s.xml">
+    <history-entry file="LinkExtractorTest - 2018.10.27 at 21h 47m 17s.xml">
       <configuration name="LinkExtractorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkExtractorTest - 2018.10.14 at 21h 56m 14s.xml">
-      <configuration name="LinkExtractorTest" configurationId="JUnit" />
+    <history-entry file="LibraryFinderTest - 2018.10.27 at 21h 59m 32s.xml">
+      <configuration name="LibraryFinderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkExtractorTest - 2018.10.14 at 21h 57m 09s.xml">
-      <configuration name="LinkExtractorTest" configurationId="JUnit" />
+    <history-entry file="LibraryFinderTest - 2018.10.27 at 22h 00m 58s.xml">
+      <configuration name="LibraryFinderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkExtractorTest - 2018.10.14 at 22h 00m 31s.xml">
-      <configuration name="LinkExtractorTest" configurationId="JUnit" />
+    <history-entry file="LibraryFinderTest - 2018.10.27 at 22h 01m 07s.xml">
+      <configuration name="LibraryFinderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoogleSearcherTest - 2018.10.27 at 15h 33m 28s.xml">
-      <configuration name="GoogleSearcherTest" configurationId="JUnit" />
+    <history-entry file="LibraryDeduplicatorTest - 2018.10.27 at 22h 14m 24s.xml">
+      <configuration name="LibraryDeduplicatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoogleSearcherTest - 2018.10.27 at 16h 14m 50s.xml">
-      <configuration name="GoogleSearcherTest" configurationId="JUnit" />
+    <history-entry file="LibraryDeduplicatorTest - 2018.10.27 at 22h 14m 42s.xml">
+      <configuration name="LibraryDeduplicatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoogleSearcherTest - 2018.10.27 at 16h 15m 21s.xml">
-      <configuration name="GoogleSearcherTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkExtractorTest_testSingleLink - 2018.10.27 at 16h 17m 14s.xml">
-      <configuration name="LinkExtractorTest.testSingleLink" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkExtractorTest - 2018.10.27 at 16h 18m 03s.xml">
-      <configuration name="LinkExtractorTest" configurationId="JUnit" />
+    <history-entry file="LibraryDeduplicatorTest - 2018.10.27 at 22h 14m 49s.xml">
+      <configuration name="LibraryDeduplicatorTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
@@ -858,26 +841,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.33409092" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Build" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32952693" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952693" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39967373" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.20391516" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.685155" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50151515" side_tool="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32952693" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49848485" weight="0.32952693" />
+      <window_info anchor="bottom" id="Build" order="11" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -918,22 +902,16 @@
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/LibraryDeduplicatorTest.kt</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/test/kotlin/LibraryFinderTest.kt</url>
-          <line>8</line>
+          <line>24</line>
           <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/LibraryFinder.kt</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/Runner.kt</url>
-          <line>56</line>
-          <properties />
-          <option name="timeStamp" value="36" />
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -941,47 +919,47 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>page.select(&quot;cite&quot;)</expression-string>
+        <expression-string>matcher.group(2)</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>page.select(&quot;a&quot;).stream().map { element -&gt; element.attr(&quot;href&quot;) }.toArray()</expression-string>
+        <expression-string>matcher.group(1)</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>page.select(&quot;a&quot;)</expression-string>
+        <expression-string>matcher.group(0)</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>&quot;http://www.google.com/search?q=$encodedSearchTerm&quot;</expression-string>
+        <expression-string>Pattern.compile(&quot;(.*?)(\\d+)(.*)&quot;).matcher(&quot;This order was placed for QT3000! OK?&quot;).group(1)</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>page</expression-string>
+        <expression-string>Pattern.compile(&quot;(.*?)(\\d+)(.*)&quot;).matcher(&quot;This order was placed for QT3000! OK?&quot;).find()</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>links.get(index)</expression-string>
+        <expression-string>Pattern.compile(&quot;^.*(\\d+)js.*$&quot;).matcher(&quot;123js&quot;).group(0)</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>matches.toList().get(1).value</expression-string>
+        <expression-string>Pattern.compile(&quot;^.*(\\d+)js.*$&quot;).matcher(&quot;ajs&quot;).group(0)</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>matches.toList().get(0).value</expression-string>
+        <expression-string>Pattern.compile(&quot;^.*([a])js.*$&quot;).matcher(&quot;ajs&quot;).group(1)</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>matches.toList()</expression-string>
+        <expression-string>Pattern.compile(&quot;^.*([a])js.*$&quot;).matcher(&quot;ajs&quot;).group(0)</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -990,86 +968,184 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/GoogleSearcherTest.groovy" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/net/URLEncoder.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/LibraryFinderTest.kt">
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Gradle__org_jsoup_jsoup_1_10_3.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
+        <state relative-caret-position="150">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/LibraryFinder.kt">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.10.3/89116c309401a6457942135ee47be41ea0eb1ab7/jsoup-1.10.3-sources.jar!/org/jsoup/Jsoup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="89" selection-start-line="8" selection-start-column="89" selection-end-line="8" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/LinkExtractorTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/GoogleSearcherTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/LibraryDeduplicatorTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        <state relative-caret-position="300">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="180">
           <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/LibraryDeduplicator.kt">
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/LinkExtractor.kt">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.debatty/java-string-similarity/1.0.0/c400a9ccedfce4c11b52e3a00b38cb19512aeca/java-string-similarity-1.0.0-sources.jar!/info/debatty/java/stringsimilarity/examples/Examples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/GoogleSearcher.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Runner.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#109#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-90">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        <state relative-caret-position="333">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.debatty/java-string-similarity/1.0.0/c400a9ccedfce4c11b52e3a00b38cb19512aeca/java-string-similarity-1.0.0-sources.jar!/info/debatty/java/stringsimilarity/interfaces/StringSimilarity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.debatty/java-string-similarity/1.0.0/c400a9ccedfce4c11b52e3a00b38cb19512aeca/java-string-similarity-1.0.0-sources.jar!/info/debatty/java/stringsimilarity/interfaces/NormalizedStringSimilarity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.debatty/java-string-similarity/1.0.0/c400a9ccedfce4c11b52e3a00b38cb19512aeca/java-string-similarity-1.0.0-sources.jar!/info/debatty/java/stringsimilarity/interfaces/StringDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.debatty/java-string-similarity/1.0.0/c400a9ccedfce4c11b52e3a00b38cb19512aeca/java-string-similarity-1.0.0-sources.jar!/info/debatty/java/stringsimilarity/interfaces/NormalizedStringDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="30" column="56" lean-forward="true" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.debatty/java-string-similarity/1.0.0/c400a9ccedfce4c11b52e3a00b38cb19512aeca/java-string-similarity-1.0.0-sources.jar!/info/debatty/java/stringsimilarity/JaroWinkler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+          <folding>
+            <element signature="e#1234#1235#0" expanded="true" />
+            <element signature="e#1284#1285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/regex/Matcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2647">
+          <caret line="218" column="19" selection-start-line="218" selection-start-column="19" selection-end-line="218" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/Map.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/GoogleSearcherTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/GoogleSearcher.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/LibrarySorter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/LibrarySorterTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/LinkExtractorTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/LinkExtractor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/LibraryFinder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/LibraryFinderTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/LibraryDeduplicatorTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-169">
+          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/LibraryDeduplicator.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Runner.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#80#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
