@@ -62,6 +62,7 @@ fun main(args: Array<String>) {
     val sorter = LibrarySorter()
     val sortedLibraries = sorter.sortLibrariesByPopularity(uniqueLibraries)
     for (i in 0..4) {
-        println("[$i] ${sortedLibraries.get(i)}")
+        val sortedLibrary = sortedLibraries.get(i)
+        println("[$i] name [${sortedLibrary.first}] number of uses [${sortedLibrary.second}]")
     }
 }

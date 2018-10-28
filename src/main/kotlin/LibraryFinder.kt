@@ -42,7 +42,7 @@ class LibraryFinder {
                             }
 
                             if (library != null) {
-                                println("Found library $library")
+                                println("Found library '$library'")
                                 libraries.add(library)
                             }
                         }
